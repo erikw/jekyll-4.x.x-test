@@ -9,7 +9,8 @@ group :development do
 end
 
 group :jekyll_themes do
-  gem 'minima', '~> 2.0'
+  #gem 'the-plain'
+  gem 'the-plain', github: 'erikw/the-plain', branch: 'fix-48-jekyll-4.0'
 end
 
 group :jekyll_plugins do
